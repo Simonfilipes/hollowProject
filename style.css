@@ -1,0 +1,326 @@
+header {
+  background-image: url("img/Hollow_gif.gif");
+  background-size: cover;
+  height: 550px;
+  opacity: 70%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+header img {
+  align-self: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagens {
+  display: flex;
+  gap: 20px;
+}
+
+#yt {
+  max-width: 50px;
+  max-height: 50px;
+  margin-top: 15px;
+}
+
+#steam {
+  max-width: 50px;
+  max-height: 50px;
+  margin-top: 15px;
+}
+
+#logo_hollow {
+  max-width: 700px;
+  max-height: 300px;
+  margin-top: 110px;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+#frase-e {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: "trajan Pro";
+  text-shadow: 0 0 10px white;
+}
+
+@font-face {
+  font-family: "Trajan Pro";
+  src: url("Trajan Pro Bold.ttf");
+}
+
+.hollow_amb {
+  max-width: 534px;
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+#apren {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 30px 50px 30px;
+}
+
+.hiden {
+  opacity: 0%;
+}
+
+.notHiden {
+  opacity: 100%;
+}
+
+.show {
+  animation: gp-direita 2s;
+}
+
+.text1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  font-family: "trajan Pro";
+  text-shadow: 0 0 10px white;
+}
+
+.text1 h2 {
+  font-size: 50px;
+  font-family: "trajan Pro";
+  text-shadow: 0 0 10px white;
+}
+
+#text2 {
+  text-align: end;
+}
+
+.parag {
+  font-size: 18.5px;
+}
+
+#parag_2 {
+  text-align: end;
+}
+
+#img_compra{
+  border-radius: 50px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Estilos para telas grandes */
+@media only screen and (min-width: 1024px) {
+  header {
+    height: 550px;
+  }
+  
+}
+
+/* Estilos para telas médias */
+@media only screen and (max-width: 1023px) and (min-width: 744px) {
+  header {
+    height: 450px;
+  }
+
+  #apren {
+    flex-wrap: wrap;
+  }
+
+  #apren img {
+    order: 1;
+  }
+
+  #logo_hollow {
+    width: 500px;
+    height: 200px;
+    margin-top: 50px;
+  }
+
+  #img_compra {
+    width: 200px; /* Define a largura da imagem como 70% da largura da tela */
+    height: 200px; /* Mantém a proporção da imagem */
+    border-radius: 50px;
+  }
+
+}
+
+/* Estilos para telas pequenas */
+@media only screen and (max-width: 767px) {
+  header {
+    height: 350px;
+  }
+
+  #apren {
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+
+  #apren img {
+    order: 1;
+  }
+
+  #logo_hollow {
+    width: 300px;
+    height: 150px;
+    margin-top: 30px;
+  }
+
+  .text1 h2 {
+    font-size: 40px;
+  }
+
+  .parag {
+    font-size: 16px;
+  }
+}
+
+#hollow_f {
+  max-width: 75px;
+  max-height: 75px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+  background-color: rgb(10, 10, 10);
+  color: rgb(77, 77, 77);
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+
+#comprar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+#img_compra {
+  width: 90%; /* Define a largura da imagem como 90% da largura da tela */
+  height: auto; /* Mantém a proporção da imagem */
+  
+}
+
+#p_4 {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-family: "trajan Pro";
+  text-shadow: 0 0 10px white;
+}
+
+#color {
+  margin-top: 5 0px;
+  background-color: rgb(19, 19, 19);
+}
+
+.degrade {
+  background: linear-gradient(180deg, rgb(0, 0, 0), rgb(19, 19, 19));
+  height: 100px;
+}
+
+@keyframes gp-direita {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
+
+#img_desvende {
+  width: 500px;
+  height: 250px;
+}
+
+#logo_comprar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+}
+
+#logo_cima {
+  gap: 100px
+}
+
+
+#logo_baixo {
+  gap: 100px;
+}
+
+#logo_comprar div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#nintendo_img {
+  width: 413.6px;
+  height: 178.2px;
+  margin-top: 60px;
+  margin-left: 12px;
+}
+
+.contorno {
+  opacity: 100%;
+  transition: .3s;
+}
+
+.contorno:hover {
+  animation: brilho 2s;
+  transform: scale(1.10);
+  -webkit-filter: drop-shadow(0px 0px 5px rrgb(255, 255, 255));
+  filter: drop-shadow(0px 0px 3px rgb(78, 78, 78));
+}
+
+#plataformas {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-family: "trajan Pro";
+  text-shadow: 0 0 10px white;
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 743px) {
+  #img_compra {
+    width: 500px;
+    height: 300px;
+    border-radius: 70px;
+    padding: 40px;
+    transition: 0.2s ease;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 600px;
+  }
+}
